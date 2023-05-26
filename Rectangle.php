@@ -7,13 +7,6 @@ class Rectangle extends Shape{
         $this -> width = $width;
         $this -> height = $height;
     }
-    //Getters;
-    public function getWidth(){
-        return $this -> width;
-    }
-    public function getHeight(){
-        return $this -> height;
-    }
     //Triangle's own function;
     public function Area(){
         return ($this->width * $this->height);
